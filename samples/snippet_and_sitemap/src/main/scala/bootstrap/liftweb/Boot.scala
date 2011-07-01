@@ -46,7 +46,7 @@ class Boot {
 
       Menu.i("Dynamic") / "dynamic", // a page with dynamic content
 
-      Param.menu,
+      Param.menu >> Hidden,
 
       Menu.param[Which]("Recurse", "Recurse",
                         {case "one" => Full(First())
